@@ -1,0 +1,43 @@
+{
+  "target": "Power Output",
+  "time_col": "Date",
+  "feature_columns": [
+    "Power Output_lag1",
+    "Power Output_lag2",
+    "Power Output_lag3",
+    "Power Output_lag6",
+    "Power Output_roll3",
+    "Power Output_roll6",
+    "cloud_cover_templin",
+    "cloud_cover_templin_lag1",
+    "cloud_cover_templin_lag2",
+    "cloud_cover_templin_lag3",
+    "diffuse_radiation_templin",
+    "diffuse_radiation_templin_lag1",
+    "diffuse_radiation_templin_lag2",
+    "diffuse_radiation_templin_lag3",
+    "direct_normal_irradiance_templin",
+    "direct_normal_irradiance_templin_lag1",
+    "direct_normal_irradiance_templin_lag2",
+    "direct_normal_irradiance_templin_lag3",
+    "dow",
+    "hour",
+    "month",
+    "shortwave_radiation_templin",
+    "shortwave_radiation_templin_lag1",
+    "shortwave_radiation_templin_lag2",
+    "shortwave_radiation_templin_lag3",
+    "temperature_2m_templin",
+    "temperature_2m_templin_lag1",
+    "temperature_2m_templin_lag2",
+    "temperature_2m_templin_lag3"
+  ],
+  "weather_cols": [
+    "temperature_2m_templin",
+    "cloud_cover_templin",
+    "shortwave_radiation_templin",
+    "diffuse_radiation_templin",
+    "direct_normal_irradiance_templin"
+  ],
+  "created_utc": "2025-09-19T07:46:26.109636Z"
+}
