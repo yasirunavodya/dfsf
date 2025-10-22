@@ -132,9 +132,9 @@ with tab2:
                 st.success("No missing values found!")
 
         # Statistical summary
-        st.subheader("Statistical Summary")
+        #st.subheader("Statistical Summary")
         numeric_cols = df.select_dtypes(include=[np.number]).columns
-        if len(numeric_cols) > 0:
+        #if len(numeric_cols) > 0:
             st.dataframe(df[numeric_cols].describe(), use_container_width=True)
 
         # Time series plots
