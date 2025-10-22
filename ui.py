@@ -135,7 +135,7 @@ with tab2:
         #st.subheader("Statistical Summary")
         numeric_cols = df.select_dtypes(include=[np.number]).columns
         #if len(numeric_cols) > 0:
-            st.dataframe(df[numeric_cols].describe(), use_container_width=True)
+            #st.dataframe(df[numeric_cols].describe(), use_container_width=True)
 
         # Time series plots
         if "Date" in df.columns:
