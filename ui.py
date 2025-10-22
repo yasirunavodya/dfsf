@@ -236,9 +236,9 @@ with tab3:
                     max_power = predictions["Predicted_Power_Output"].max()
                     min_power = predictions["Predicted_Power_Output"].min()
 
-                    st.metric("Average Power", f"{avg_power:.2f}")
-                    st.metric("Maximum Power", f"{max_power:.2f}")
-                    st.metric("Minimum Power", f"{min_power:.2f}")
+                    #st.metric("Average Power", f"{avg_power:.2f}")
+                    #st.metric("Maximum Power", f"{max_power:.2f}")
+                    #st.metric("Minimum Power", f"{min_power:.2f}")
 
                 # Quick visualization
                 st.subheader("Quick Forecast Preview")
