@@ -198,15 +198,6 @@ with tab3:
 
         with col1:
             st.info("Historical data is loaded and ready for forecasting.")
-            if st.session_state.fut_df is not None:
-                st.success(
-                    "Future weather data is also available for enhanced accuracy."
-                )
-            else:
-                st.warning(
-                    "No future weather data provided. Forecasting will use carry-forward of last known values."
-                )
-
         with col2:
             forecast_button = st.button(
                 "🔮 Run Forecast", type="primary", use_container_width=True
