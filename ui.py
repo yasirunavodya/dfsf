@@ -115,8 +115,8 @@ with tab2:
         with col1:
             st.write("**Data Types:**")
             data_types = df.dtypes.to_frame("Data Type")
-            data_types["Column"] = data_types.index
-            st.dataframe(data_types[["Column", "Data Type"]], use_container_width=True)
+            
+            st.dataframe(data_types[[ "Data Type"]], use_container_width=True)
 
         with col2:
             st.write("**Missing Values:**")
