@@ -40,8 +40,7 @@ tab1, tab2, tab3, tab4 = st.tabs(
 
 with tab1:
     st.header("Dataset Upload")
-    st.markdown("Upload your datasets to get started with solar power forecasting.")
-    st.markdown("You can use the following suitable dataset for testing: [📥 Download the test dataset](https://drive.google.com/file/d/1ckynIL-gCXDGuZ-yBtb6rgr3wYHamzb2/view?usp=sharing)")
+    st.markdown("Upload your datasets to get started with solar power forecasting orYou can use the following suitable dataset for testing: [📥 Download the test dataset](https://drive.google.com/file/d/1ckynIL-gCXDGuZ-yBtb6rgr3wYHamzb2/view?usp=sharing)")
 
 
 
